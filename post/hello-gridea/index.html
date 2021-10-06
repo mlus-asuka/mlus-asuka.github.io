@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello Gridea | mlus</title>
-<link rel="shortcut icon" href="https://mlus-asuka.github.io/favicon.ico?v=1633538915318">
+<link rel="shortcut icon" href="https://mlus-asuka.github.io/favicon.ico?v=1633539561203">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mlus-asuka.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Hello Gridea | mlus - Atom Feed" href="https://mlus-asuka.github.io/atom.xml">
@@ -28,7 +28,7 @@ Gridea 主页
       <div class="main-content">
         <div class="site-header">
   <a href="https://mlus-asuka.github.io">
-  <img class="avatar" src="https://mlus-asuka.github.io/images/avatar.png?v=1633538915318" alt="">
+  <img class="avatar" src="https://mlus-asuka.github.io/images/avatar.png?v=1633539561203" alt="">
   </a>
   <h1 class="site-title">
     mlus
@@ -136,6 +136,32 @@ Gridea 主页
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'aed69bf0e857a4a0914c',
+    clientSecret: '737a6b8a7c4f0c5e8b2d05c9ee79547ad6ac510f',
+    repo: 'blog-comment',
+    owner: 'mlus-asuka',
+    admin: ['mlus-asuka'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
