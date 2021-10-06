@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://mlus-asuka.github.io</id>
+    <id>https://me.fubuki.vip</id>
     <title>mlus</title>
-    <updated>2021-10-06T17:59:39.800Z</updated>
+    <updated>2021-10-06T18:00:33.166Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://mlus-asuka.github.io"/>
-    <link rel="self" href="http://mlus-asuka.github.io/atom.xml"/>
+    <link rel="alternate" href="https://me.fubuki.vip"/>
+    <link rel="self" href="https://me.fubuki.vip/atom.xml"/>
     <subtitle>无人访问的博客网站。</subtitle>
-    <logo>http://mlus-asuka.github.io/images/avatar.png</logo>
-    <icon>http://mlus-asuka.github.io/favicon.ico</icon>
+    <logo>https://me.fubuki.vip/images/avatar.png</logo>
+    <icon>https://me.fubuki.vip/favicon.ico</icon>
     <rights>All rights reserved 2021, mlus</rights>
 </feed>
